@@ -1,0 +1,111 @@
+/* Write your code here. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+.social-buttons-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.like-button {
+    background-color: #eab308;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 12px;
+    color: #ffffff;
+
+}
+
+.comment-button {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 12px;
+    color: #323f4b;
+
+}
+
+.share-button {
+    background-color: #1d4ed8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 12px;
+    color: #ffffff;
+
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+@media screen and (min-width:576px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .like-button {
+        background-color: #eab308;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 12px;
+        color: #ffffff;
+
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .comment-button {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 12px;
+        color: #323f4b;
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .share-button {
+        background-color: #1d4ed8;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 12px;
+        color: #ffffff;
+
+    }
+}
